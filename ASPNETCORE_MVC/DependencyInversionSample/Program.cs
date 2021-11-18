@@ -2,24 +2,24 @@
 
 namespace DependencyInversionSample
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            //Programmierer B kann seinen Service testen: 
+    //internal class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        //Programmierer B kann seinen Service testen: 
 
-            ICarService service = new BetterCarService(); ///Dependency Inversion -> SOLID Prinzipien -> Regel 4 
+    //        ICarService service = new BetterCarService(); ///Dependency Inversion -> SOLID Prinzipien -> Regel 4 
 
-            ICar testCarObj = new MockCar();
+    //        ICar testCarObj = new MockCar();
 
-            service.Repair(testCarObj); //Repair Methode kann einen Funktionstest erfahren mit festen Testwerten. (MockObject) 
+    //        service.Repair(testCarObj); //Repair Methode kann einen Funktionstest erfahren mit festen Testwerten. (MockObject) 
 
-            //Programmierer A ist fertig mit BetterCar
+    //        //Programmierer A ist fertig mit BetterCar
 
-            ICar car = new BetterCar();
-            service.Repair(car);        
-        }
-    }
+    //        ICar car = new BetterCar();
+    //        service.Repair(car);        
+    //    }
+    //}
 
 
     #region BadCode Sample
