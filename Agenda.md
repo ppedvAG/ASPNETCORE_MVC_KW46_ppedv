@@ -2,9 +2,10 @@
 
 TAG1:
 - [ ] Einführungs DI 
+- [ ] IServiceCollection / ServiceProvider
+
 - [ ] Dependency Injection / Seperation of Concerne (3 Stunden) 
 - [ ] Startup-Klasse
-- [ ] IServiceCollection / ServiceProvider
 - [ ] Konfigurationen einlesen -> Dependency Injcetion + Konfigurationen
 - [ ] DI-SDependencyInjectionSamplepecials -> Mocks, Entwickler - Prozess
 - [ ] Einbinden einer HotReload Middleware
@@ -59,6 +60,11 @@ Tag 3:
 - [ ] Customize Middleware für formatierte Bildausgaben (Gallery)+ In Verbindung mit einem Bild-Upload-Formular
 - [ ] Filter -> https://docs.microsoft.com/de-de/aspnet/core/mvc/controllers/filters?view=aspnetcore-5.0#resource-filters
 - [ ] AuthorisationFilter Sample (Read and Write Sample)
+
+- WebAPI - Einführung
+ 
+
+- Abschlussprojekt -> MVC UI + WebAPI + EFCore
 
 
 

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjections", "DependencyInjections", "{215739CB-1AFE-4963-96C3-77F18971B63B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionSample", "DependencyInversionSample\DependencyInversionSample.csproj", "{A45248E6-00A9-4146-921D-38EEFC35CC18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOC_Container_in_ASPNETCORE", "IOC_Container_in_ASPNETCORE\IOC_Container_in_ASPNETCORE.csproj", "{7B0A72E3-08CD-40B1-915E-19BB9BFA3872}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A45248E6-00A9-4146-921D-38EEFC35CC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45248E6-00A9-4146-921D-38EEFC35CC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45248E6-00A9-4146-921D-38EEFC35CC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45248E6-00A9-4146-921D-38EEFC35CC18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B0A72E3-08CD-40B1-915E-19BB9BFA3872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B0A72E3-08CD-40B1-915E-19BB9BFA3872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B0A72E3-08CD-40B1-915E-19BB9BFA3872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B0A72E3-08CD-40B1-915E-19BB9BFA3872}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A45248E6-00A9-4146-921D-38EEFC35CC18} = {215739CB-1AFE-4963-96C3-77F18971B63B}
+		{7B0A72E3-08CD-40B1-915E-19BB9BFA3872} = {215739CB-1AFE-4963-96C3-77F18971B63B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47951914-AE71-4129-92F0-F7AC2958FC1F}
+	EndGlobalSection
+EndGlobal
