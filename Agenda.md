@@ -1,21 +1,21 @@
 ﻿PPEDV-Kurs: 28.09.2021 - MVC Kurs 
 
 TAG1:
-- [ ] Einführungs DI 
-- [ ] IServiceCollection / ServiceProvider
+- [x] Einführungs DI 
+- [x] IServiceCollection / ServiceProvider
 
 - [ ] Dependency Injection / Seperation of Concerne (3 Stunden) 
 - [ ] Startup-Klasse
 - [ ] Konfigurationen einlesen -> Dependency Injcetion + Konfigurationen
 - [ ] DI-SDependencyInjectionSamplepecials -> Mocks, Entwickler - Prozess
 - [ ] Einbinden einer HotReload Middleware
-- [ ] Logging 
+- [ ] Logging (serilog)
 
 View Part 1:
 - [ ] Präsentationsschicht (1 Stunde) 
 - [ ] Razor-Syntax / RazorEngine 
 - [ ] Bootstrap
-- [ ] MVC mit ViewModels
+- [ ] MVC mit ViewModels(Ausgabe Tabelle= 
 - [ ] Navigation
 
 Controller

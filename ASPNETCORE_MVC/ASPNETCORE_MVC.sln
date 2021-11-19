@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjections", "DependencyInjections", "{215739CB-1AFE-4963-96C3-77F18971B63B}"
+	ProjectSection(SolutionItems) = preProject
+		..\Agenda.md = ..\Agenda.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionSample", "DependencyInversionSample\DependencyInversionSample.csproj", "{A45248E6-00A9-4146-921D-38EEFC35CC18}"
 EndProject
