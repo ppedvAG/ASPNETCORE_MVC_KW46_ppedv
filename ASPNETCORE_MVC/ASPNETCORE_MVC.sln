@@ -1,18 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.31911.260
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjections", "DependencyInjections", "{215739CB-1AFE-4963-96C3-77F18971B63B}"
 	ProjectSection(SolutionItems) = preProject
 		..\Agenda.md = ..\Agenda.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionSample", "DependencyInversionSample\DependencyInversionSample.csproj", "{A45248E6-00A9-4146-921D-38EEFC35CC18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversionSample", "DependencyInversionSample\DependencyInversionSample.csproj", "{A45248E6-00A9-4146-921D-38EEFC35CC18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOC_Container_in_ASPNETCORE", "IOC_Container_in_ASPNETCORE\IOC_Container_in_ASPNETCORE.csproj", "{7B0A72E3-08CD-40B1-915E-19BB9BFA3872}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOC_Container_in_ASPNETCORE", "IOC_Container_in_ASPNETCORE\IOC_Container_in_ASPNETCORE.csproj", "{7B0A72E3-08CD-40B1-915E-19BB9BFA3872}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAPP_DI_Samples", "MVCAPP_DI_Samples\MVCAPP_DI_Samples.csproj", "{8A803C53-0D57-49F1-BAD7-34A0B4DD92F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCAPP_DI_Samples", "MVCAPP_DI_Samples\MVCAPP_DI_Samples.csproj", "{8A803C53-0D57-49F1-BAD7-34A0B4DD92F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIScopeVsTransientVsSingletonSample", "..\DIScopeVsTransientVsSingletonSample\DIScopeVsTransientVsSingletonSample.csproj", "{F7D7AABD-97C5-4CE7-B807-37271A5381B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{8A803C53-0D57-49F1-BAD7-34A0B4DD92F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A803C53-0D57-49F1-BAD7-34A0B4DD92F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A803C53-0D57-49F1-BAD7-34A0B4DD92F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D7AABD-97C5-4CE7-B807-37271A5381B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D7AABD-97C5-4CE7-B807-37271A5381B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D7AABD-97C5-4CE7-B807-37271A5381B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D7AABD-97C5-4CE7-B807-37271A5381B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +46,7 @@ Global
 		{A45248E6-00A9-4146-921D-38EEFC35CC18} = {215739CB-1AFE-4963-96C3-77F18971B63B}
 		{7B0A72E3-08CD-40B1-915E-19BB9BFA3872} = {215739CB-1AFE-4963-96C3-77F18971B63B}
 		{8A803C53-0D57-49F1-BAD7-34A0B4DD92F4} = {215739CB-1AFE-4963-96C3-77F18971B63B}
+		{F7D7AABD-97C5-4CE7-B807-37271A5381B2} = {215739CB-1AFE-4963-96C3-77F18971B63B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {47951914-AE71-4129-92F0-F7AC2958FC1F}

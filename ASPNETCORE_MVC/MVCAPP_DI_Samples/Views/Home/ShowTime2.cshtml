@@ -1,0 +1,12 @@
+﻿
+@using MVCAPP_DI_Samples.Services; 
+@inject ITimeService timeService;
+@{
+    ViewData["Title"] = "ShowTime2";
+}
+
+<h1>ShowTime2</h1>
+
+
+@timeService.GetCurrtentTime()
+

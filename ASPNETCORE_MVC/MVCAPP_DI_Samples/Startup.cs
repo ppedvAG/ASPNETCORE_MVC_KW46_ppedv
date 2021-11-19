@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MVCAPP_DI_Samples.Models;
+using MVCAPP_DI_Samples.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,6 +35,10 @@ namespace MVCAPP_DI_Samples
 
 
             services.AddSingleton<ICar, MockCar>();
+
+            services.AddSingleton<ITimeService, TimeService>();
+
+            services.Configure<SampleWebSettings>(Configuration);
         }
         ////Hier wird folgendes passieren->  ServiceProvider provider = services.BuildServiceProvider();
 

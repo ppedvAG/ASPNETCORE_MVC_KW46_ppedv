@@ -115,3 +115,9 @@ C:\Aktueller Kurs\ASPNETCORE_MVC_KW46_ppedv\ASPNETCORE_MVC\MVCAPP_DI_Samples\bin
 C:\Aktueller Kurs\ASPNETCORE_MVC_KW46_ppedv\ASPNETCORE_MVC\MVCAPP_DI_Samples\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Aktueller Kurs\ASPNETCORE_MVC_KW46_ppedv\ASPNETCORE_MVC\MVCAPP_DI_Samples\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Aktueller Kurs\ASPNETCORE_MVC_KW46_ppedv\ASPNETCORE_MVC\MVCAPP_DI_Samples\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Aktueller Kurs\ASPNETCORE_MVC_KW46_ppedv\ASPNETCORE_MVC\MVCAPP_DI_Samples\obj\Debug\net5.0\Razor\Views\Home\ShowTime.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCORE_MVC_KW46_ppedv\ASPNETCORE_MVC\MVCAPP_DI_Samples\obj\Debug\net5.0\Razor\Views\Home\ShowTime2.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCORE_MVC_KW46_ppedv\ASPNETCORE_MVC\MVCAPP_DI_Samples\obj\Debug\net5.0\Razor\Views\ConfigureSample\PositionOptionsSample.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCORE_MVC_KW46_ppedv\ASPNETCORE_MVC\MVCAPP_DI_Samples\bin\Debug\net5.0\SampleWebSettings.Development.json
+C:\Aktueller Kurs\ASPNETCORE_MVC_KW46_ppedv\ASPNETCORE_MVC\MVCAPP_DI_Samples\bin\Debug\net5.0\SampleWebSettings.json
+C:\Aktueller Kurs\ASPNETCORE_MVC_KW46_ppedv\ASPNETCORE_MVC\MVCAPP_DI_Samples\obj\Debug\net5.0\Razor\Views\ConfigureSample\WebSettingsSample.cshtml.g.cs

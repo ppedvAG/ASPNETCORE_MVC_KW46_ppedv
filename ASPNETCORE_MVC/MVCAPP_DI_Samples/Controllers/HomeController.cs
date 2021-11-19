@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MVCAPP_DI_Samples.Models;
+using MVCAPP_DI_Samples.Services;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,6 +11,9 @@ using System.Threading.Tasks;
 
 namespace MVCAPP_DI_Samples.Controllers
 {
+    //DefaultFactory kümmert sich um das instanziieren der Controller-Klassen
+    //Dabei wird der Konstruktor in Augenschein genommen -> Parameter 
+    // Wenn ICar oder ITimeService als Parameter-Typen gefunden werden -> Greife auf IOC-Container zu und biete die Instanz an (Dependency Injection -> Konstruktor Injection
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -34,7 +38,12 @@ namespace MVCAPP_DI_Samples.Controllers
             return View();
         }
 
-        public IActionResult ShowTime()
+        public IActionResult ShowTime([FromServices] ITimeService timeService) //Weitere Variante
+        {
+            return View(timeService.GetCurrtentTime());
+        }
+
+        public IActionResult ShowTime2() //Weitere Variante
         {
             return View();
         }

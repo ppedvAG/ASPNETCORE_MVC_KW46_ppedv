@@ -18,6 +18,10 @@ namespace MVCAPP_DI_Samples
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+                .ConfigureAppConfiguration((hostingContext, config) =>
+                {
+                    config.AddJsonFile("samplewebsettings.json", optional: false, reloadOnChange: true);
+                })
                 .ConfigureWebHostDefaults(webBuilder => //Kestrel ist ein interner WebServer 
                 {
                     webBuilder.UseStartup<Startup>();
